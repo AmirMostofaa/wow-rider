@@ -1,0 +1,37 @@
+.single-rider {
+    width: 15rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    background-color: #040e3c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #031b49;
+}
+.single-rider img {
+    max-width: 100%;
+    max-height: 160px;
+}
+.single-rider h3 {
+    text-transform: uppercase;
+    padding-top: 2rem;
+    
+}
+
+.rider-component a {
+    text-decoration: none;
+    color: white;
+    transition: color .4s ease-in-out;
+}
+
+
+@media (max-width: 576px) {
+    .single-rider {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .single-rider {
+        width: 18rem;
+    }
+}

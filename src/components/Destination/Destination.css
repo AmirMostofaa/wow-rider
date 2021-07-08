@@ -1,0 +1,74 @@
+.map {
+    height: 80vh;
+}
+.search-destination {
+   margin-bottom: 2rem;
+   background-color: #084aae46;
+   padding: 2rem 1rem;
+   border-radius: 6px;
+}
+.form-group {
+    margin-bottom: 1rem
+}
+.search-destination button {
+    width: 100%;
+}
+
+.timeline-content {
+    background-color: rgb(197, 9, 9);
+    padding: .8rem .4rem;
+    border-radius: 8px; 
+}
+ul.timeline {
+    list-style: none;
+    position: relative;
+}
+ul.timeline::before {
+    content: '';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    width: 1px;
+    height: 80%;
+    margin-top: 5px;
+}
+
+ul.timeline > li {
+    margin: 20px 0px;
+    padding-left: 10px;
+}
+ul.timeline > li::before {
+    content: '';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 13px;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #084aae46;
+    border-radius: 8px;
+}
+.ride, .capacity {
+    display: flex;
+    justify-content: center;
+}
+.ride img  {
+    max-width: 50px;
+    margin-right: 10px
+}
+.ride p{
+    text-transform: uppercase;
+}
+.capacity img {
+    max-width: 40px;
+    margin-right: 10px
+}

@@ -1,0 +1,70 @@
+.header {
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+}
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid darkgray;
+}
+.logo-menu a {
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-width: 70px;
+    z-index: 1;
+}
+.logo h2 {
+    margin-left: -4px;
+    font-family: 'Kaushan Script',
+    cursive;
+    font-weight: 800;
+    background: #CFCFCF;
+    background: -webkit-linear-gradient(to right, #CFCFCF 0%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #CFCFCF 0%, #CF1512 100%);
+    background: linear-gradient(to right, #CFCFCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu {
+    margin-top: .8rem;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem .8rem;
+    margin: .5rem .5rem;
+    font-weight: 600;
+    transition: border, color .6s ease-in-out;
+}
+.menu a:hover {
+    border-bottom: 1px solid white;
+    color: red;
+}
+.menu a:last-child:hover{
+    border: none
+    
+}
+.menu a:last-child {
+    margin: 0rem !important;
+}
+
+@media (max-width: 776px) {
+    .logo-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu a {
+        padding: .2rem .3rem;
+        margin: .1rem .1rem;
+        font-size: 12px;
+    }
+}

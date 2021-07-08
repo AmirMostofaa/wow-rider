@@ -1,0 +1,29 @@
+.home {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.rider {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.heading h1 {
+    background: #CFCFCF;
+    background: -webkit-linear-gradient(to right, #CFCFCF 0%, #FF1A16 100%);
+    background: -moz-linear-gradient(to right, #CFCFCF 0%, #FF1A16 100%);
+    background: linear-gradient(to right, #CFCFCF 0%, #FF1A16 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+
+@media (max-width: 576px) {
+
+    .rider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
